@@ -13,9 +13,9 @@ export default function NavBar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/"><strong>Home</strong></a>
-            </li>
+            </li> */}
             {/* <li className="nav-item">
               <a className="nav-a active" aria-current="page" href="/about">{props.aboutText}</a>
             </li> */}
