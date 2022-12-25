@@ -60,6 +60,7 @@ export default function TextForm(props) {
     const handleCopy = ()=>{
         let newText = document.getElementById('myBox')
         newText.select()
+        document.getSelection().removeAllRanges();
         navigator.clipboard.writeText(newText.value)
     }
 
