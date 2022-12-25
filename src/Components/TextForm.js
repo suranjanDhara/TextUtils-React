@@ -81,7 +81,7 @@ export default function TextForm(props) {
             <div className="mb-3">
                 <textarea className="form-control" value = {text} onChange = {handleOnChange} id="myBox" rows="5"></textarea>
             </div>
-            <button disabled = {text.length === 0} className="btn btn-primary" onClick={handleUpClick}>Convert to uppercase</button>
+            <button disabled = {text.length === 0} className="btn btn-primary mx-2 my-1" onClick={handleUpClick}>Convert to uppercase</button>
             <button disabled = {text.length === 0} className="btn btn-primary mx-2 my-1" onClick={handleLowClick}>Convert to lowercase</button>
             <button disabled = {text.length === 0} className="btn btn-primary mx-2 my-1" onClick={handleClearText}>Clear text</button>
             <button disabled = {text.length === 0} className="btn btn-primary mx-2 my-1" onClick={handleCopy}>Copy to clipboard</button>
